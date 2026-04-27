@@ -1,5 +1,5 @@
 # This is a makefile for our source files 
-SRC_DIR = Src
+SRC_DIR = src
 INCLUDE_DIR = include
 CMSIS_DIR = CMSIS
 

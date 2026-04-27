@@ -4,7 +4,7 @@
  *
  * Uses the GPIO driver to control the user LED on the Nucleo-F411RE (PA5).
  *
- * @author  Carlos Humberto Araiza Quintana
+ * @author  Carlos Cayetano
  * @version 1.0
  */
 
@@ -15,15 +15,15 @@ gpio_status_t led_init(void)
 {
     gpio_status_t status;
 
-    /* Enable clock for LED port */
+    /*  clock  */
     status = gpio_initPort(LED_PORT);
     if (status != GPIO_OK) return status;
 
-    /* Configure pin as digital output */
+    /*  output */
     status = gpio_setPinMode(LED_PORT, LED_PIN, GPIO_MODE_OUTPUT);
     if (status != GPIO_OK) return status;
 
-    /* Start with LED off */
+    /*  LED off */
     status = gpio_clearPin(LED_PORT, LED_PIN);
 
     return status;

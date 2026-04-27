@@ -7,7 +7,7 @@
  *
  * Target: Nucleo-F411RE — User LED on PA5
  *
- * @author  Carlos Humberto Araiza Quintana
+ * @author  Carlos Cayetano
  * @version 1.0
  */
 

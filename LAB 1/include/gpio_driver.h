@@ -5,7 +5,7 @@
  * Provides functions to initialize ports, configure pin modes,
  * and control/read pin states.
  *
- * @author  Carlos Humberto Araiza Quintana
+ * @author Kheara Kieley y Carlos Araiza
  * @version 1.0
  */
 
@@ -141,5 +141,6 @@ gpio_status_t gpio_readPin(GPIO_TypeDef *port, gpio_pin_t pin, gpio_pin_state_t 
  * @return GPIO_OK on success, GPIO_INVALID on bad parameters.
  */
 gpio_status_t gpio_setAlternateFunction(GPIO_TypeDef *port, gpio_pin_t pin, uint8_t alt_func);
+
 
 #endif /* GPIO_DRIVER_H */
