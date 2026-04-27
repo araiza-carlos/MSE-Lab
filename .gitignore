@@ -1,0 +1,13 @@
+# Compiled output
+Build/
+*.o
+*.elf
+*.bin
+*.hex
+
+# Linker & object files
+*.ld
+*.map
+
+# VS Code settings
+.vscode/
