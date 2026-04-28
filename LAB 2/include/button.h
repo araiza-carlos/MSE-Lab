@@ -2,13 +2,13 @@
  * @file    button.h
  * @brief   Button Module API
  *
- * High-level abstraction for reading a push-button connected to a GPIO pin.
- * Internally uses the GPIO driver.
+ * Reads a push-button connected to a GPIO pin.
+ * uses the GPIO driver.
  *
  * Target: Nucleo-F411RE — User Button (B1) on PC13
  * Note:   The user button is active LOW (pressed = 0, released = 1).
  *
- * @author  Carlos Humberto Araiza Quintana
+ * @author  Vania Leal
  * @version 1.0
  */
 

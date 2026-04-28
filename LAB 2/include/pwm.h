@@ -11,7 +11,7 @@
  * Pin mapping (from UM1724 user manual):
  *   PA6 → TIM3_CH1 → Alternate Function 2 (AF2)
  *
- * @author  Carlos Humberto Araiza Quintana
+ * @author  Vania Leal 
  * @version 1.0
  */
 

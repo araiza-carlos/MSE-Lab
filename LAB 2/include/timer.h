@@ -7,7 +7,7 @@
  *
  * Target timer: TIM2 (APB1, general purpose, available on F411RE)
  *
- * @author  Carlos Humberto Araiza Quintana
+ * @author  Carlos Cayetano
  * @version 1.0
  */
 

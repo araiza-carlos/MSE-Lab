@@ -5,7 +5,7 @@
  * Provides functions to initialize ports, configure pin modes,
  * and control/read pin states.
  *
-* @author  Carlos Humberto Araiza Quintana
+ * @author Kheara Kieley y Carlos Araiza
  * @version 1.0
  */
 

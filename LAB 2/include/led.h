@@ -7,7 +7,7 @@
  *
  * Target: Nucleo-F411RE — User LED on PA5
  *
- * @author  Carlos Humberto Araiza Quintana
+ * @author  Carlos Cayetano
  * @version 1.0
  */
 
@@ -21,7 +21,6 @@
  * --------------------------------------------------------------------- */
 #define LED_PORT    GPIOA
 #define LED_PIN     GPIO_PIN_8
-
 
 /* -----------------------------------------------------------------------
  * Function Prototypes

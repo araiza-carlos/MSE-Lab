@@ -4,7 +4,7 @@
  *
  * Uses TIM2 via the TIM driver to generate accurate blocking delays.
  *
- * @author  Carlos Humberto Araiza Quintana
+ * @author  Vania Leal
  * @version 1.0
  */
 
@@ -21,7 +21,6 @@ tim_status_t timer_delay_ms(uint32_t ms)
 
     if (ms == 0 || ms > 65535) return TIM_INVALID;
 
-    /* Configure TIM2 for the requested interval */
     status = tim_setTimerMs(TIMER_DELAY_TIM, ms);
     if (status != TIM_OK) return status;
 
@@ -29,7 +28,7 @@ tim_status_t timer_delay_ms(uint32_t ms)
     status = tim_enableTimer(TIMER_DELAY_TIM);
     if (status != TIM_OK) return status;
 
-    /* Block until the update event fires */
+
     status = tim_waitTimer(TIMER_DELAY_TIM);
     if (status != TIM_OK) return status;
 

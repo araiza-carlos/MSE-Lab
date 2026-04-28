@@ -5,7 +5,7 @@
  * Provides functions to initialize timers, configure time intervals
  * or frequencies, and control capture/compare channels for PWM.
  *
- * @author  Carlos Humberto Araiza Quintana
+ * @author  Carlos Cayetano, Carlos Araiza y Kheara Kieley
  * @version 1.1
  */
 

@@ -6,7 +6,7 @@
  * The frequency is set via tim_setTimerFreq() and the duty cycle
  * is calculated as a fraction of ARR.
  *
- * @author  Carlos Humberto Araiza Quintana
+ * @author  Carlos Cayetano
  * @version 1.0
  */
 
