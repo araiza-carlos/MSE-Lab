@@ -1,7 +1,7 @@
 # This is a makefile for our source files 
-SRC_DIR = src
-INCLUDE_DIR = include
-CMSIS_DIR = CMSIS
+SRC_DIR = ../src
+INCLUDE_DIR = ../include
+CMSIS_DIR = ../CMSIS
 
 # List all your source files here
 SRCS = \
