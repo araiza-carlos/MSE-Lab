@@ -10,7 +10,6 @@ FPU         = fpv4-sp-d16
 
 ARCHFLAGS = -mcpu=$(CPU) -mthumb -march=$(ARCH) -mfloat-abi=hard -mfpu=$(FPU) --specs=$(SPECS)
 
-# Redirigir los .o a la carpeta Objects/
 OBJS := $(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SRCS))
 
 CC = arm-none-eabi-gcc
@@ -18,7 +17,6 @@ CC = arm-none-eabi-gcc
 CFLAGS  = -g -O0 -std=c99 -Werror -Wall -DSTM32F411xE $(ARCHFLAGS)
 LDFLAGS = -nostdlib -T $(LINKER_FILE)
 
-# Crear carpeta Objects si no existe y compilar
 $(OBJ_DIR)/%.o : $(SRC_DIR)/%.c
 	@mkdir -p $(OBJ_DIR)
 	$(CC) -c $< $(CFLAGS) $(INCLUDES) -o $@
